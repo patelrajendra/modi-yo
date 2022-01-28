@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masam</title>
+    <link rel="stylesheet" href="../static/css/sign.css">
+</head>
+<body>
+    <div class="big-box"> 
+     <h1 class="cname" id="heading">welcome to masam </h1>
+     <div class="container">
+        <h1 class="cname" id="comname" >Masam</h1>
+        <div class="box">
+            <form  id="myform" action="" method="post">
+                <div class="inputag"  id="field-1">
+                    <input type="text" name="firstName" id="firstName" placeholder=" first name" required>
+                    <input type="text" name="middleName" id="middleName" placeholder=" middle name">
+                    <input type="text" name="lastName" id="lastName" placeholder=" last name" required>
+                </div>
+                <div class="inputag" id="field-3">
+                    <input type="text" name="collegeId" id="clgid-field" placeholder=" college id" required >
+                    <input type="email" name="email" id="email-field"  placeholder=" college email id" style="text-transform: lowercase;" required>
+                    
+                </div>
+                <div class="inputag" id="field-2">
+                   <input type="text" name="state" id="state" placeholder=" state" required>
+                   <input type="text" name="district" id="district" placeholder=" district" required>
+                   <input type="text" name="city" id="city" placeholder=" city" required>
+                </div>
+                <div class="inputag" id="field-4">
+                    <input type="text" name="password" id="pass-field" placeholder=" password" style="text-transform:none" required>
+                    <input type="password" name="confirmPassword" id="cnfpass-field" placeholder=" confirm password" required>
+                </div>
+                <div class="inputag" id="field-3">
+                    <input type="number" name="siblings" id="siblings" placeholder=" siblings" required>
+                    <select name="gender" id="gender-field" selected="gender">
+                        <option value="">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Custom">Custom</option>
+                    </select>
+                    <select name="disablity" id="phydis-field" selected="">
+                        <option value="">Physical Disability</option>
+                        <option value="YES">YES</option>
+                        <option value="NO">NO</option>
+                    </select>
+                </div>
+                <button class="btn">submit</button>
+            </form>
+        </div>
+     </div>   
+    </div>
+    <footer>
+        <h2>copyright &copy; masam 2022 ||all right reserved </h2>
+    </footer>
+    <script src="../static/javascript/script.js"></script>
+</body>
+</html>
