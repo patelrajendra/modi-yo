@@ -14,8 +14,8 @@ app.set('view engine','pug');
 app.set('view engine','ejs');
 app.set('views', path.join(__dirname,'views'));
 const User=require('./model/user');
-const url='mongodb+srv://manish:Manish123 @cluster0.ryh38.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-mongoose.connect("mongodb+srv://manish:manish1409@cluster0.ryh38.mongodb.net/test?retryWrites=true&w=majority", {
+const url='momgodb://localhost/test';
+mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
