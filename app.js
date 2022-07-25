@@ -13,12 +13,12 @@ app.use(express.urlencoded());
 app.set('view engine','pug');
 app.set('view engine','ejs');
 app.set('views', path.join(__dirname,'views'));
-const User=require('./model/user');
-const url='momgodb://localhost/test';
-mongoose.connect(url, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// const User=require('./model/user');
+// const url='momgodb://localhost/test';
+// mongoose.connect(url, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 
 
